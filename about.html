@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Hedasera</title>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { background: #000; color: #00ccff; font-family: 'Courier Prime', monospace; padding: 50px; }
-        .back-btn { border: 1px solid #00ccff; padding: 10px; text-decoration: none; color: #00ccff; display: inline-block; margin-bottom: 20px; }
-        .back-btn:hover { background: #00ccff; color: #000; }
-        .profile-circle { width: 150px; height: 150px; border: 3px solid #00ccff; border-radius: 50%; overflow: hidden; margin-bottom: 20px; }
+        body { margin: 0; background: #f0f2f5; background-image: radial-gradient(#d1d1d1 1px, transparent 1px); background-size: 40px 40px; font-family: 'Inter', sans-serif; display: flex; justify-content: center; padding: 40px 20px; }
+        .content-card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); max-width: 600px; width: 100%; border: 1px solid #ddd; position: relative; }
+        .brand { font-family: 'Dancing Script', cursive; font-size: 40px; margin: 0 0 10px 0; color: #1a3a8a; text-align: center; }
+        .logo-small { width: 80px; height: 80px; border-radius: 50%; border: 2px solid #1a3a8a; display: block; margin: 0 auto 20px; }
+        h2 { border-bottom: 2px solid #ffcc00; padding-bottom: 5px; color: #333; }
+        p { line-height: 1.6; color: #444; }
+        .btn-back { display: inline-block; padding: 10px 20px; background: #1a3a8a; color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; text-decoration: none; margin-top: 20px; }
+        .btn-back:hover { background: #000; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-btn">> BACK_TO_DASHBOARD</a>
-    <a href="feed.html" class="back-btn" style="margin-left: 20px;">> RETURN_TO_FEED</a>
 
-    <div class="profile-circle">
-        <img src="pfp.jpg" style="width:100%;" alt="PFP">
+    <div class="content-card">
+        <img src="logo.png" class="logo-small" alt="Logo">
+        <h1 class="brand">Hedasera</h1>
+        
+        <h2>About the Project</h2>
+        <p>Hedasera is a community-focused platform designed for the Agoncillo section. It serves as a hub for connecting members and sharing information across different local areas like Herrera, Mejorada, and Sentin.</p>
+        
+        <h2>Our Mission</h2>
+        <p>To provide a simple, accessible space for users to interact, whether they choose to log in with their personal accounts or stay anonymous.</p>
+
+        <a href="main.html" class="btn-back">← Back to Main Page</a>
     </div>
 
-    <h1>h/Herrera</h1>
-    <div style="border: 1px solid #00ccff; padding: 20px; width: 400px;">
-        <p>> ABOUT_ME</p>
-        <p>Welcome to my profile!</p>
-        <p>[STATUS]: Admin & Student</p>
-        <p>[BIO]: I'm Thirdy. Grade 11 ICT student from Agoncillo.</p>
-    </div>
 </body>
 </html>
